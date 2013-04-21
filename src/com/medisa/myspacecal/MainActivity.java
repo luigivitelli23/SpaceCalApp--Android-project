@@ -50,7 +50,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.actionbarsherlock.app.SherlockActivity;
-import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
 import com.devspark.sidenavigation.ISideNavigationCallback;
 import com.devspark.sidenavigation.SideNavigationView;
@@ -128,12 +127,12 @@ public class MainActivity extends SherlockActivity implements ISideNavigationCal
 
     
     
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getSupportMenuInflater().inflate(R.menu.main_menu, menu);
-        menu.findItem(R.id.mode_left).setChecked(true);
-        return super.onCreateOptionsMenu(menu);
-    }
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        getSupportMenuInflater().inflate(R.menu.main_menu, menu);
+//        menu.findItem(R.id.mode_left).setChecked(true);
+//        return super.onCreateOptionsMenu(menu);
+//    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -225,17 +224,17 @@ public class MainActivity extends SherlockActivity implements ISideNavigationCal
     			});
     			dialog.show();
                 break;
-            case R.id.side_navigation_menu_item3:
-                invokeActivity(getString(R.string.title3), R.drawable.ic_android3);
-                break;
-
-            case R.id.side_navigation_menu_item4:
-                invokeActivity(getString(R.string.title4), R.drawable.ic_android4);
-                break;
-
-            case R.id.side_navigation_menu_item5:
-                invokeActivity(getString(R.string.title5), R.drawable.ic_android5);
-                break;
+//            case R.id.side_navigation_menu_item3:
+//                invokeActivity(getString(R.string.title3), R.drawable.ic_android3);
+//                break;
+//
+//            case R.id.side_navigation_menu_item4:
+//                invokeActivity(getString(R.string.title4), R.drawable.ic_android4);
+//                break;
+//
+//            case R.id.side_navigation_menu_item5:
+//                invokeActivity(getString(R.string.title5), R.drawable.ic_android5);
+//                break;
 
             default:
                 return;
@@ -476,7 +475,7 @@ public class MainActivity extends SherlockActivity implements ISideNavigationCal
 				if (day_color[1].equals("GREY"))
 					{
 						gridcell.setTextColor(Color.LTGRAY);
-						txtNumeroSatelliti.setText("5");
+						txtNumeroSatelliti.setText("    ");
 					}
 				if (day_color[1].equals("WHITE"))
 					{
@@ -528,13 +527,13 @@ public class MainActivity extends SherlockActivity implements ISideNavigationCal
 						}catch(Exception e){
 							Log.e("ERRORE", e.getMessage());
 						}
-						txtNumeroSatelliti.setText("5");
+						txtNumeroSatelliti.setText("    ");
 					}
 				if (position == currentDayOfMonth)
 					{
 						gridcell.setTextColor(Color.BLUE);
 	//###########################NUMERO SATELLITI DA JSON
-						txtNumeroSatelliti.setText("5");
+						txtNumeroSatelliti.setText("    ");
 					}
 
 				return row;

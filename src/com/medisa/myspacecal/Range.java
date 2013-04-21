@@ -247,17 +247,17 @@ public class Range extends FragmentActivity implements ActionBar.TabListener, IS
     			});
     			dialog.show();
                 break;
-            case R.id.side_navigation_menu_item3:
-                invokeActivity(getString(R.string.title3), R.drawable.ic_android3);
-                break;
-
-            case R.id.side_navigation_menu_item4:
-                invokeActivity(getString(R.string.title4), R.drawable.ic_android4);
-                break;
-
-            case R.id.side_navigation_menu_item5:
-                invokeActivity(getString(R.string.title5), R.drawable.ic_android5);
-                break;
+//            case R.id.side_navigation_menu_item3:
+//                invokeActivity(getString(R.string.title3), R.drawable.ic_android3);
+//                break;
+//
+//            case R.id.side_navigation_menu_item4:
+//                invokeActivity(getString(R.string.title4), R.drawable.ic_android4);
+//                break;
+//
+//            case R.id.side_navigation_menu_item5:
+//                invokeActivity(getString(R.string.title5), R.drawable.ic_android5);
+//                break;
 
             default:
                 return;
