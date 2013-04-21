@@ -1,0 +1,48 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light">
+        <item name="calendarViewStyle">@style/CalendarView</item>
+    </style>
+    
+    <style name="CalendarView">
+        <item name="showWeekNumber">false</item>
+        <item name="minDate">01/01/1900</item>
+        <item name="maxDate">12/31/2100</item>
+        <item name="shownWeekCount">6</item>
+        <item name="selectedMonthDateColor">#80ccccff</item>
+        <item name="dateColor">#ff000000</item>
+        <item name="dateSaturdayColor">#ff0000ff</item>
+        <item name="dateSundayColor">#ffff0000</item>
+        <item name="monthColor">#40000000</item>
+        <item name="yearColor">#8080ff80</item>
+        <item name="weekNumberColor">#888</item>
+        <item name="weekSeparatorLineColor">#ccf</item>
+        <item name="weekDayTextAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="dateTextSize">16sp</item>
+    </style>
+    
+    <style name="Item">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">300dp</item>
+    </style>
+
+    <style name="Item.Top">
+        <item name="android:background">@color/top_item</item>
+    </style>
+
+    <style name="Item.Sticky">
+        <item name="android:background">@color/sticky_item</item>
+        <item name="android:layout_height">@dimen/sticky_height</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@color/sticky_item_text</item>
+    </style>
+
+    <style name="Item.Bottom">
+        <item name="android:background">@color/bottom_item</item>
+    </style>
+
+    <style name="Item.Bottom.Alt">
+        <item name="android:background">@color/bottom_item_alt</item>
+    </style>
+</resources>

@@ -1,0 +1,41 @@
+
+<resources>
+
+    <declare-styleable name="CalendarView">
+        <!-- The first day of week according to {@link java.util.Calendar}. -->
+        <attr name="firstDayOfWeek" format="integer" />
+        <!-- Whether do show week numbers. -->
+        <attr name="showWeekNumber" format="boolean" />
+        <!-- The minimal date shown by this calendar view in mm/dd/yyyy format. -->
+        <attr name="minDate" format="string" />
+        <!-- The minimal date shown by this calendar view in mm/dd/yyyy format. -->
+        <attr name="maxDate" format="string" />
+        <!-- The number of weeks to be shown. -->
+        <attr name="shownWeekCount" format="integer"/>
+        <attr name="selectedMonthDateColor" format="color|reference" />
+        <!-- The color for the dates. -->
+        <attr name="dateColor" format="color|reference" />
+        <attr name="dateSaturdayColor" format="color|reference" />
+        <attr name="dateSundayColor" format="color|reference" />
+        <!-- The color for the month. -->
+        <attr name="monthColor" format="color|reference" />
+        <!-- The color for the year. -->
+        <attr name="yearColor" format="color|reference" />
+        <!-- The color for the week numbers. -->
+        <attr name="weekNumberColor" format="color|reference" />
+        <!-- The color for the sepatator line between weeks. -->
+        <attr name="weekSeparatorLineColor" format="color|reference" />
+        <!-- The text appearance for the week day abbreviation of the calendar header. -->
+        <attr name="weekDayTextAppearance" format="reference" />
+        <!-- The text appearance for the calendar dates. -->
+        <attr name="dateTextAppearance" format="reference" />
+        <!-- The text size for the calendar dates. -->
+        <attr name="dateTextSize" format="dimension" />
+    </declare-styleable>
+    
+    <declare-styleable name="CustomTheme">
+       <!-- The CalendarView style. -->
+        <attr name="calendarViewStyle" format="reference" /> 
+    </declare-styleable>
+    
+</resources>

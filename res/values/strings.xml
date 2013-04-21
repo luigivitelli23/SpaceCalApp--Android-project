@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpaceCalApp</string>
+    <string name="title2">Title2</string>
+    <string name="title3">Title3</string>
+    <string name="title4">Title4</string>
+    <string name="title5">Title5</string>
+    <string name="calendario">Calendar</string>
+    <string name="date_range">Date range</string>
+    <string name="mode">Mode</string>
+    <string name="mode_left">Left</string>
+    <string name="mode_right">Right</string>
+    <string name="image_desc">Image</string>
+    <string name="sticky_item">Sticky</string>
+    <string name="quick_return_item">Quick Return</string>
+    <string name="title_activity_range">Range</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_dettagli">Dettagli</string>
+
+</resources>

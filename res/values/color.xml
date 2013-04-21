@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="text_color">#31D1F1</color>
+	<color name="white">#ffffff</color>
+    <color name="top_item">#a6c</color>
+    <color name="sticky_item">#fff</color>
+    <color name="sticky_item_text">#09c</color>
+    <color name="bottom_item">#f44</color>
+    <color name="bottom_item_alt">#c00</color>
+
+</resources>

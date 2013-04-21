@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.devspark.sidenavigation.sample"
+    android:versionCode="7"
+    android:versionName="1.2.1" >
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+    <uses-sdk
+        android:minSdkVersion="13"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
+        <activity
+            android:name="com.medisa.myspacecal.MainActivity"
+            android:launchMode="singleInstance" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.medisa.myspacecal.CalendarView"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name="com.medisa.myspacecal.Range"
+            android:label="@string/title_activity_range"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity
+            android:name="com.medisa.myspacecal.Dettagli"
+            android:label="@string/title_activity_dettagli" >
+        </activity>
+    </application>
+
+</manifest>
